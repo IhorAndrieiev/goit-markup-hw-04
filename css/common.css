@@ -163,6 +163,7 @@ img {
   text-decoration: none;
 }
 .link-mail {
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -170,8 +171,18 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
+  align-items: center;
 }
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
 .link-tel {
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -179,6 +190,14 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
+  align-items: center;
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
 }
 
 .nav-list .link:hover,
