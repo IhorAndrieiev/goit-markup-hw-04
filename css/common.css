@@ -242,9 +242,10 @@ img {
 /* =========-- Футер --=========== */
 .footer {
   background-color: #2f303a;
-  min-height: 252px;
+  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: block;
 }
 
 .footer-logo {
@@ -256,7 +257,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 
-  display: block;
+  display: inline-block;
   width: 145px;
 
   border: 0px;
@@ -305,6 +306,56 @@ img {
   height: 21px;
 }
 
+.footcontainer {
+  /* height: 252px; */
+  /* display: flex; */
+}
+
+.footlogaddress {
+  height: 252px;
+  display: inline-block;
+  outline: 1px solid;
+}
+
+.footsocial {
+  width: 206px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 301px;
+  /* margin-top: 72px; */
+  outline: 1px solid;
+}
+
+.footsocial-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+}
+
+.footsocial-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-white-color);
+}
+
+.footsocial-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footsocial-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
 /* =========-- Футер end --=========== */
 
 /* ==============WORK=========== */
@@ -313,6 +364,11 @@ img {
   color: var(--accent-color);
 }
 
+.footsocial-link:hover,
+.footsocial-link:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
 /* =======portfolio filtr=========== */
 /* .portfolio-list {
   display: flex;
