@@ -20,7 +20,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* padding-bottom: 94px; */
   /* padding: 200px auto 280px; */
+  /* margin-bottom: 94px; */
 }
 
 /* .hero-bunner {
@@ -83,7 +85,7 @@
   /* margin-top: 94px;
   margin-bottom: 94px; */
   /* margin-left: -30px; */
-  padding: 0;
+  padding: 94px 0px;
 
   /* outline: 1px solid; */
 }
@@ -157,7 +159,9 @@
 /* ========= skill end ========= */
 
 /* ============ <!--Примеры работ--> ============ */
-
+.sect {
+  margin-bottom: 94px;
+}
 .work-list {
   display: flex;
   margin-top: 50px;
@@ -184,6 +188,9 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
+}
+.team {
+  /* background-color: #f5f4fa; */
 }
 .social-list {
   display: flex;
@@ -278,6 +285,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+  margin-top: 94px;
 
   color: var(--title-text-color);
 }
@@ -286,7 +294,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+  /* margin-top: 94px; */
+  padding-bottom: 94px;
 }
 
 .regular-list-item {
