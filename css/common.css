@@ -61,7 +61,9 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   /* outline: 1px solid; */
   /* padding-bottom: 94px; */
@@ -245,21 +247,31 @@ img {
 /* =========-- Футер --=========== */
 .footer {
   background-color: #2f303a;
-  height: 252px;
-  width: auto;
+  /* height: 252px;
+  width: auto;*/
 
+  padding-top: 60px;
+  padding-bottom: 60px;  
   /* outline: 3px solid; */
-  /* padding-top: 60px;
-  padding-bottom: 60px; */
   /* display: block; */
 }
 
 .footcontainer {
-  /* outline: 3px solid; */
+  /* display: block; */
+  align-items: baseline;
+  /* margin-top: 0px; */
+  /* height: 252px; */
+  /* align-items: center; */
+   display: flex; 
+   /* outline: 3px solid;  */
 }
 
+/* .footcontainer {
+  outline: 3px solid;
+} */
+
 .footer-logo {
-  margin-top: 60px;
+   
   margin-bottom: 20px;
   display: block;
   width: 145px;
@@ -278,14 +290,14 @@ img {
   color: var(--primary-white-color);
 }
 
-.foot-nav {
+/* .foot-nav {
   min-width: 231px;
 
   display: flex;
   align-items: center;
 
   /* outline: 3px solid; */
-}
+} */
 
 .footer-address-list {
   min-height: 81px;
@@ -339,19 +351,10 @@ img {
   height: 21px;
 }
 
-.footcontainer {
-  display: block;
-  /* margin-top: 0px; */
-  height: 252px;
-  /* align-items: center; */
-  /* display: flex; */
-  /* outline: 3px solid; */
-}
-
 .footlogaddress {
   /* padding-top: 60px;
   padding-bottom: 60px; */
-  min-height: 252px;
+  /* height: 252px; */
   display: inline-block;
   /* outline: 1px solid; */
 }
@@ -361,7 +364,7 @@ img {
   min-height: 80px;
   display: inline-block;
   margin-left: 70px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
   /* margin-bottom: 100px; */
   /* padding-bottom: 100px; */
   /* outline: 1px solid; */

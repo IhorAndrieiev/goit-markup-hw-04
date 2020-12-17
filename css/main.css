@@ -73,9 +73,9 @@
 }     */
 /* =========== hero end ============== */
 /* =========== section =========== */
-.section {
-  /* padding-top: 94px;*/
-  /* padding-bottom: 94px; */
+.skill {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*--приемущества и особенности-->*/ /* ========= skill ========= */
 .skill-list {
@@ -85,7 +85,7 @@
   /* margin-top: 94px;
   margin-bottom: 94px; */
   /* margin-left: -30px; */
-  padding: 94px 0px;
+  /* padding: 94px 0px; */
 
   /* outline: 1px solid; */
 }
@@ -159,9 +159,13 @@
 /* ========= skill end ========= */
 
 /* ============ <!--Примеры работ--> ============ */
-.sect {
-  margin-bottom: 94px;
+
+.work {
+  padding-bottom: 94px;
 }
+/* .sect {
+  margin-bottom: 94px;
+} */
 .work-list {
   display: flex;
   margin-top: 50px;
@@ -278,6 +282,10 @@
 
 /* ========== команда team end ======== */
 /* ==================REGULAR================ */
+.regular {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .regular-title {
   font-weight: 700;
   font-size: 36px;
@@ -285,7 +293,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 
   color: var(--title-text-color);
 }
@@ -296,7 +304,7 @@
   align-items: center;
   /* margin-bottom: 94px; */
   /* margin-top: 94px; */
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .regular-list-item {
